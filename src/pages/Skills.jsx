@@ -24,12 +24,12 @@ const Skills = forwardRef((props, ref) => {
   };
   
   const childrenVariant = {
-    initial: { opacity: 0, x: 300 },
+    initial: { opacity: 0, x: 0 },
     animate: { opacity: 1, x: 0 }
   };
 
   const headerVariant = {
-    initial: { opacity: 0, x: 200 },
+    initial: { opacity: 0, x: 0 },
     animate: { opacity: 1, x: 0 }
   };
 
@@ -41,7 +41,7 @@ const Skills = forwardRef((props, ref) => {
       initial="initial"
       animate={mainControls} 
       variants={headerVariant}
-      transition={{duration:0.7}} 
+      transition={{duration:0.5}} 
       className="container">
         <h3>About</h3>
       </motion.div>
@@ -49,18 +49,13 @@ const Skills = forwardRef((props, ref) => {
       <motion.div ref={animateRef} 
       initial="initial" 
       animate={mainControls} 
-      transition={{ duration:0.5, staggerChildren: 0.5}} 
+      transition={{ duration:0.5, staggerChildren: 0.3}} 
       variants={parentVariant} 
       className="parent-container">
         <motion.div className="child" variants={childrenVariant}   >
           <div className="circle"><FaRegLightbulb/></div>
           <div class="circle-title">Problem Solver</div>
           <div class="circle-text"v>I'm creative & persistent when it comes to solving problems</div>
-        </motion.div>
-        <motion.div className="child" variants={childrenVariant} >
-          <div className="circle"><BiBug /></div>
-          <div class="circle-title">Expert Debugger</div>
-          <div class="circle-text">I'm great at writing tests and fixing bugs</div>
         </motion.div>
         <motion.div className="child" variants={childrenVariant} >
           <div className="circle"><BiCool/></div>
@@ -71,6 +66,11 @@ const Skills = forwardRef((props, ref) => {
           <div className="circle"><MdDevices /></div>
           <div class="circle-title">Responsive</div>
           <div class="circle-text">I write responsive code that looks good on all devices</div>
+        </motion.div>
+        <motion.div className="child" variants={childrenVariant} >
+          <div className="circle"><BiBug /></div>
+          <div class="circle-title">Expert Debugger</div>
+          <div class="circle-text">I'm great at writing tests and fixing bugs</div>
         </motion.div>
       </motion.div>
     </div>

@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {Link} from 'react-router-dom';
 
 function Menu() {
+
   return (
-    <menu>
-        <div>
-            <li><Link to="/">PROJECTS</Link></li>
-            <li><Link to="/about">ABOUT</Link></li>
-            <li><Link to="/resume">RESUME</Link></li>  
-        </div>
+    <menu className="sticky">
+      <div>
+          <li><Link to="/">PROJECTS</Link></li>
+          <li><Link to="/about">ABOUT</Link></li>
+          <li><Link to="/resume">RESUME</Link></li>  
+      </div>
     </menu>
   )
 }
