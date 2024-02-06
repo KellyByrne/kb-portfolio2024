@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "id": 1,
+             "employer": "Penn Foster",
+             "coverImage": "../images/ace2.png",
+             "images": ["../images/ace1.png", "../images/ace2.png", "../images/adeptli1.png",  "../images/adeptli2.png"],
+             "jobTitle": "React Front End Developer",
+             "shortDescription": "At Penn Foster, I worked on a variety of projects in React collaborating with the design team and backend developers.",
+             "details": "At Penn Foster, I worked on the marketing site originally, where I worked closely with the design team to translate Figma, InVision & Photoshop mockups into reusable components. This was a fully responsive application that was made for all devices and resizes. This really grew my CSS skills because the design team was always updating the designs to the latest website design trends.",
+             "details2": "Later, I moved teams and worked on an internal site for employees to build forms and access and sort data tables. This site used Redux for state management. React hooks were new around this time and we did a lot of refactoring of class components into functional components with hooks. Also, lots of practice making highly reusable components."
+         },
+        {
+            "id": 2,
+             "employer": "Quantificare",
+             "coverImage": "../images/qc1.png",
+             "images": ["../images/qc1.png", "../images/qc2.png", "../images/qcmobile1.jpeg", "../images/qcmobile2.jpeg"],
+             "jobTitle": "Full Stack Mobile Developer",
+             "shortDescription": "At Quantificare, I created their first mobile application using Ionic, React and a MySQL/Node/Express API.",
+             "details": "At Quantificare, I created their first mobile application using Ionic, React and a MySQL/Node/Express API. The Quantificare desktop software allows clients to upload studies with subjects who regularly visit doctors to take progress images week to week. The mobile application, deployed shortly prior to the COVID pandemic, enabled study subjects to upload images using precise filters for each week's visit and fill out corresponding forms. It also allows user's to see messages and chat directly with study coordinators.",
+             "details2": "Here, I was also working on a team to add features and maintain the desktop software application. It was similar in a lot of ways to the mobile app however the measurements and masking of the photos were more complex than the mobile app allowed."
+         },
+         {
+            "id": 3,
+             "employer": "Lakeside Pines Campground",
+             "coverImage": "../images/lakesidepines1.png",
+             "images": ["../images/lakesidepines1.png", "../images/lakesidepines2.png"],
+             "jobTitle": "React App with Postgres/Node/Express API",
+             "shortDescription": "A campground website where you can select nights, book your stay, and pay using Stripe.",
+             "details": "This is a marketing/booking website for a family run campground. It uses React and fetches booking and reservation data from a Node/Express/Postgres API. The booking is a simple form where the user can choose a checkin and checkout date. They are able to see available sites for their chosen dates and pay for their booking using Stripe. ",
+             "details2": "The site also shows amenities and nearby attractions via the Yelp API. It is not actively used or deployed as the campground is still under construction but will be used by the business soon."
+         },
+         {
+            "id": 4,
+             "employer": "Africa Tourism Website",
+             "coverImage": "../images/afdisplay.png",
+             "images": ["../images/afdisplay.png", "../images/af2.png", "../images/af3.png", "../images/af4.png"],
+             "jobTitle": "Personal Code School Project",
+             "shortDescription": "AngularJS project using Leaflet for interactive maps and d3.js for data visualizations of conflicts in various countries.",
+             "details": "This was my final project at Code School. It was a website with information on travelling to Africa including a list of countries that the user could click and view on a map using Leaflet, a d3.js map of the number of conflicts in each country.",
+             "details2": "It also had pages with lists of activities and information on each as well as packlists for different countries and activities."
+         },
+         {
+            "id": 5,
+             "employer": "D3 Bar Chart Creator",
+             "coverImage": "../images/d3display.png",
+             "images": ["../images/d3display.png", "../images/d32.png"],
+             "jobTitle": "Personal Project",
+             "shortDescription": "This was a simple project using d3.js that allows you to create a bar chart with the data you fill out from the given form. It also had a decorative d3.js ball pit at the top.",
+             "details": "This was a simple project using d3.js that allows you to create a bar chart with the data you fill out from the given form. It also had a decorative d3.js ball pit at the top."
+         }
+    ]
+}
