@@ -32,6 +32,15 @@
          },
          {
             "id": 4,
+             "employer": "Ruby on Rails CRUD app",
+             "coverImage": "../images/rorarticles.png",
+             "images": ["../images/rorarticles.png", "../images/rorcreate.png", "../images/rorprofile.png"],
+             "jobTitle": "Ruby on Rails Articles App",
+             "shortDescription": "An articles app that allows users to login, write and update articles. Admins have permission to delete and edit all articles.",
+             "details": "An articles app that allows users to login, write and update articles. Admins have permission to delete and edit all articles."
+        },
+         {
+            "id": 5,
              "employer": "Africa Tourism Website",
              "coverImage": "../images/afdisplay.png",
              "images": ["../images/afdisplay.png", "../images/af2.png", "../images/af3.png", "../images/af4.png"],
@@ -41,7 +50,7 @@
              "details2": "It also had pages with lists of activities and information on each as well as packlists for different countries and activities."
          },
          {
-            "id": 5,
+            "id": 6,
              "employer": "D3 Bar Chart Creator",
              "coverImage": "../images/d3display.png",
              "images": ["../images/d3display.png", "../images/d32.png"],

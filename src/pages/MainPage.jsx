@@ -6,6 +6,7 @@ import Header from "./Header";
 import Skills from "./Skills";
 import Menu from "../components/Menu";
 import About from './About';
+import Footer from '../components/Footer';
 
 function MainPage() {
     const [projects, setProjects] = useState(projectsArray.projects);
@@ -52,6 +53,7 @@ function MainPage() {
         <div ref={projectsRef} className="container">
             {content}
         </div>
+        <Footer></Footer>
         </>
     );
 }

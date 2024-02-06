@@ -122,12 +122,9 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
   a:hover {
-    color: #747bff;
+    color: #477392;
+    background-color: white;
   }
   button {
     background-color: #f9f9f9;
@@ -166,7 +163,8 @@ menu div p {
 }
 
 li a:hover {
-  background-color: #111111;
+  background-color: white;
+  color: #477392;
 }
 
 .main-contain {
@@ -368,4 +366,12 @@ li a:hover {
   color: #fff;
   height: 100%;
   width: 110px;
+}
+
+.footer {
+  background-color:#477392;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+  margin-top: 50px;
 }
