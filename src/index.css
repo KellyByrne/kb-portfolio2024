@@ -38,96 +38,97 @@ body {
 }
 
 .header {
-  /* background-color: #252934;
-  background-color: #E8C2B9; */
-  background-color:#477392;
-  color: white;
+  background-color: #477392;
+  color: #fff;
   height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 50px;
+  text-align: center
 }
 
 .header h1 {
-  font-family: 'BonVivantSerif';
+  font-family: BonVivantSerif;
   font-size: 50px;
   margin: 0;
-  letter-spacing: 1px;
+  letter-spacing: 1px
 }
 
 .header h1 span {
-  font-family: 'BonVivant';
+  font-family: BonVivant;
   font-size: 70px;
   margin: 0;
-  letter-spacing: initial;
+  letter-spacing: initial
 }
 
 .header h2 {
-  font-family: 'BonVivantSerif';
+  font-family: BonVivantSerif;
   font-size: 40px;
   margin-top: 20px;
-  letter-spacing: 1px;
+  letter-spacing: 1px
 }
 
 a {
   font-weight: 500;
   color: #477392;
-  text-decoration: inherit;
+  text-decoration: inherit
 }
 
-
-
 .btn {
-  color: white;
-  position:relative;
+  color: #fff;
+  position: relative;
   border-radius: 30px;
   border: 2px solid white;
   background-color: transparent;
-  font-family: 'Lato';
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  font-family: Lato;
+  transition-property: color,background-color,border-color,text-decoration-color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s
 }
 
-
 body {
-  margin: 0;
+  margin: 0
 }
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 1.1
 }
-button:focus {outline: none !important;}
+
+button:focus {
+  outline: none!important
+}
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: .6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: white;
+  transition: border-color .25s
 }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+button:hover {
+  border-color: #fff
+}
+
+button:focus,button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color
 }
 
 @media (prefers-color-scheme: light) {
   a:hover {
-    color: #477392;
-    background-color: white;
+      color:#477392;
+      background-color: #fff
   }
+
   button {
-    background-color: #f9f9f9;
+      background-color: #f9f9f9
   }
 }
 
@@ -140,114 +141,129 @@ menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 100
 }
 
 menu li {
-  float: left;
+  float: left
 }
-
 
 menu li a {
   display: block;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 20px;
-  text-decoration: none;
+  text-decoration: none
 }
 
 menu div p {
   font-size: 25px;
-  color: white;
-  padding: 5px 30px;
+  color: #fff;
+  padding: 5px 30px
 }
 
 li a:hover {
-  background-color: white;
-  color: #477392;
+  background-color: #fff;
+  color: #477392
 }
 
 .main-contain {
-  margin: 0px 50px;
+  margin: 0 50px
 }
 
 .container {
-  display:flex;
+  display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: wrap
 }
 
 .rotate {
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(-22deg);
-  transform: translateX(-50%) translateY(-50%) rotate(-22deg);
+  transform: translate(-50%) translateY(-50%) rotate(-22deg)
 }
 
 .job-box {
   width: 400px;
-  box-shadow: 0 0.25rem 1rem rgba(0,0,0,.08);
+  box-shadow: 0 .25rem 1rem #00000014;
   transition: .3s;
   margin: 80px 15px 0;
-  min-height: 460px;
+  min-height: 460px
 }
 
 .job-box-link {
-  color: black;
+  color: #000
 }
 
 .job-box .text-container {
-  margin: 20px;
+  margin: 20px
 }
 
 .text-container h3 {
   font-size: 22px;
-  margin-bottom: 0px;
+  margin-bottom: 0
 }
 
 .text-container h4 {
   margin-top: 2px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 18px
 }
 
 .text-container p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 16px
 }
 
 .job-box:hover {
-  box-shadow: 0 0.75rem 2rem rgba(0,0,0,.16);
+  box-shadow: 0 .75rem 2rem #00000029;
   text-decoration: none;
   transition: .3s;
-  color:black;
+  color: #000
 }
 
 .job-box img {
-  width:400px;
-  box-shadow: 0 0.25rem 1rem rgba(0,0,0,0.04);
+  width: 400px;
+  box-shadow: 0 .25rem 1rem #0000000a
 }
 
-.about-container, .project-container {
+.about-container {
   margin: 70px;
-  font-size: 18px;
+  font-size: 18px
 }
 
-.about-container span {
-  background: black;
-  color: salmon;
+.project-container {
+  margin: 90px 100px;
+  font-size: 18px
+}
+
+.project-container h1,.project-container h2 {
+  font-family: BonVivantSerifBold
 }
 
 .react-multi-carousel-list img {
   max-height: 500px;
-  width: auto !important;
-  max-width: 500px;
+  width: auto!important;
+  max-width: 500px
 }
 
-.project-container h1{
-  font-size: 40px;
+.project-container h1 {
+  font-size: 40px
 }
 
 .project-container p {
-  margin-bottom: 30px;
+  margin-bottom: 30px
+}
+
+.about-container .info {
+  padding-top: 35px;
+  text-align: center;
+  max-width: 70%
+}
+
+.about-container .right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
 }
 
 .circle {
@@ -261,52 +277,52 @@ li a:hover {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px #0000001a;
   background: #c5dce1;
-  font-size: 35px;
+  font-size: 35px
 }
 
-.skills-container h3, .projects h3{
+.skills-container h3,.projects h3 {
   text-align: center;
-  font-family: 'BonVivantSerif';
-  font-size: 50px;
+  font-family: BonVivantSerif;
+  font-size: 50px
 }
 
 .projects h3 {
-  margin-bottom: 0;
+  margin-bottom: 0
 }
 
 .skills-container {
-  padding: 0 50px;
+  padding: 0 50px
 }
 
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100%
 }
 
 .circle-title {
   font-size: 24px;
   text-align: center;
   padding-top: 15px;
-  color: #71AAB6;
-  font-family: 'BonVivantSerifBold';
+  color: #71aab6;
+  font-family: BonVivantSerifBold
 }
 
 .circle-text {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 10px
 }
 
 .child {
-  padding: 0 35px;
+  padding: 0 35px
 }
 
 .parent-container {
-  display:flex;
+  display: flex;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap
 }
 
 .picture-circle {
@@ -316,26 +332,25 @@ li a:hover {
   background-image: url(../images/me.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px #0000001a
 }
-
 
 .about-container {
   margin: 90px 50px;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap
 }
 
 .flex {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center
 }
 
 .bars-wrap {
-  margin: 50px 0 0 0;
+  margin: 50px 0 0;
   max-width: 50%;
-  width: calc(100% - 15px);
+  width: calc(100% - 15px)
 }
 
 .bar {
@@ -344,9 +359,9 @@ li a:hover {
   color: #666;
   font-size: 7pt;
   height: 22px;
-  margin: 0 0 12px 0;
+  margin: 0 0 12px;
   position: relative;
-  width:100%;
+  width: 100%
 }
 
 .bar.fill {
@@ -355,7 +370,7 @@ li a:hover {
   top: 0;
   background-color: #90abbd;
   opacity: 1;
-  padding: 0;
+  padding: 0
 }
 
 .bar .tag {
@@ -365,13 +380,39 @@ li a:hover {
   background-color: #477392;
   color: #fff;
   height: 100%;
-  width: 110px;
+  width: 110px
 }
 
 .footer {
-  background-color:#477392;
-  color: white;
+  background-color: #477392;
+  color: #fff;
   text-align: center;
   padding: 20px 50px;
-  margin-top: 50px;
+  margin-top: 50px
+}
+
+@media screen and (max-width: 750px) {
+  .parent-container,.about-container {
+      flex-wrap:wrap
+  }
+
+  .parent-container .child {
+      margin-bottom: 40px
+  }
+
+  .bars-wrap {
+      max-width: 100%
+  }
+
+  .about-container .info {
+      padding-top: 35px;
+      text-align: center;
+      max-width: 70%
+  }
+
+  .about-container .right {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center
+  }
 }

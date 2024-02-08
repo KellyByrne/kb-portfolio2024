@@ -24,11 +24,10 @@ function About() {
 
   return (
     <div className="container about-container" ref={aboutRef}>
-      <div className="right">
-        <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.7}}> 
-          <div className="picture-circle"></div>    
+        <motion.div className="right" initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.7}}> 
+          <div className="picture-circle"></div>  
+          <div class="info">I'm a Full Stack JavaScript Developer. I am passionate about writing clean, reusable code, learning new things and growing my skillset. </div>  
         </motion.div> 
-      </div>
       <motion.div
       initial="initial" 
       animate={mainControls} 
